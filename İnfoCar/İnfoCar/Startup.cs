@@ -33,7 +33,7 @@ namespace İnfoCar
             {
                 endpoints.MapControllerRoute(
                     "defaults",
-                    "{controller=home}/{action}"
+                    "{controller=home}/{action=index}"
                     );
                 
             });

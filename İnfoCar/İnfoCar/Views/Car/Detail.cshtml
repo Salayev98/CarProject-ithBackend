@@ -1,15 +1,23 @@
 ﻿@using İnfoCar.Models
 @model Cars
 @{
+    
     ViewData["Title"] = "Detail";
 }
-<h1>Detail</h1>
-<h1>@Model.Id</h1>
-<h1>@Model.Brand</h1>
-<h1>@Model.Average</h1>
-<h1>@Model.Model</h1>
-<h1>@Model.Price</h1>
-<h1>@Model.Year</h1>
+<div class="card" style="width: 18rem;">
+    <img src="@Model.Link" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Brand: @Model.Brand</h5>
+        <h5 class="card-title mt-2">Model: @Model.Model</h5>
+        <p class="card-text">Model Id: @Model.Id</p>
+        <p class="card-text">Model Average: @Model.Average</p>
+        <p class="card-text">Model Year: @Model.Year</p>
+        <p class="card-text">Model Price: @Model.Price</p>
+
+    </div>
+</div>
+
+
 
 
 

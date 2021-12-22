@@ -103,8 +103,8 @@ C:\Users\user\Desktop\İnfoCar\İnfoCar\İnfoCar\obj\Debug\netcoreapp3.1\İnfoCa
 C:\Users\user\Desktop\İnfoCar\İnfoCar\İnfoCar\obj\Debug\netcoreapp3.1\İnfoCar.pdb
 C:\Users\user\Desktop\İnfoCar\İnfoCar\İnfoCar\obj\Debug\netcoreapp3.1\İnfoCar.genruntimeconfig.cache
 C:\Users\user\Desktop\İnfoCar\İnfoCar\İnfoCar\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\user\Desktop\İnfoCar\İnfoCar\İnfoCar\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\user\Desktop\İnfoCar\İnfoCar\İnfoCar\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\user\Desktop\İnfoCar\İnfoCar\İnfoCar\obj\Debug\netcoreapp3.1\Razor\Views\Car\Index.cshtml.g.cs
 C:\Users\user\Desktop\İnfoCar\İnfoCar\İnfoCar\obj\Debug\netcoreapp3.1\Razor\Views\Car\Error.cshtml.g.cs
 C:\Users\user\Desktop\İnfoCar\İnfoCar\İnfoCar\obj\Debug\netcoreapp3.1\Razor\Views\Car\Detail.cshtml.g.cs
+C:\Users\user\Desktop\İnfoCar\İnfoCar\İnfoCar\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs

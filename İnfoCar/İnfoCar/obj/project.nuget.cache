@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GyJwor8YsNqruUr90I2jsLcRL8P2DlEmL8HbbgpLZcZDY17qhcI7Diwq1pKJTvg+aOzLlHRlY72xQAbgZZj2Gg==",
+  "dgSpecHash": "qQAZkas62uEt5HYrWptvppeqb5kAHy0WDzWRm8U6RiduGg2y5rfyVZDdKIqwd0/8VDr9FavFupd9+qb8qi0AEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\İnfoCar\\İnfoCar\\İnfoCar\\İnfoCar.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\İnfoCar\\İnfoCar\\İnfoCar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

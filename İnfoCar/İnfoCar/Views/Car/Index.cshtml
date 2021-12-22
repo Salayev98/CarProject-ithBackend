@@ -3,11 +3,21 @@
 @{
     ViewData["Title"] = "Index";
 }
+<div class="card" style="width: 18rem">
 
-<ul>
     @foreach (var item in Model)
     {
-        <li>Cars Id: @item.Id Cars Brands: @item.Brand Cars Models: @item.Model Cars Average: @item.Average Cars Prices: Cars Year: @item.Year @item.Price </li>
+        <img src="@item.Link" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Brand: @item.Brand</h5>
+            <h5 class="card-title mt-2">Model: @item.Model</h5>
+            <p class="card-text">Model Id: @item.Id</p>
+            <p class="card-text">Model Average: @item.Average</p>
+            <p class="card-text">Model Year: @item.Year</p>
+            <p class="card-text">Model Price: @item.Price</p>
+            <a href="#">@Html.ActionLink("to Detail", "detail", "car")</a>
+            
+        </div>
     }
-</ul>
 
+</div>

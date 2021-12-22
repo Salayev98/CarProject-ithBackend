@@ -1,28 +1,43 @@
 ﻿@using İnfoCar.ViewModels
-@model HomeViewModels 
+@model HomeViewModels
 @{
     ViewData["Title"] = "Index";
 }
-<ul>
-    @foreach (var item in Model.Cars)
-    {
-        <li>Cars Id: @item.Id Cars Brands: @item.Brand Cars Models: @item.Model Cars Average: @item.Average Cars Prices: Cars Year: @item.Year @item.Price </li>
-    }
-</ul>
 
-<ul>
+<h1>Brands</h1>
+<ul class="mt-2">
     @foreach (var item in Model.Brands)
     {
         <li>Cars Brands Id: @item.Id Cars Brands Name: @item.Name </li>
     }
 </ul>
-
-<ul>
-    @foreach(var item in Model.Model)
-            {
-                <li>Cars Models Id: @item.Id Cars Models Name: @item.Name </li>
-            }
+<h1 class="mt-2">Models</h1>
+<ul class="mt-2">
+    @foreach (var item in Model.Model)
+    {
+        <li>Cars Models Id: @item.Id Cars Models Name: @item.Name </li>
+    }
 </ul>
+
+<h1 class="mt-2">Cars</h1>
+
+<div class="card" style="width: 18rem">
+
+    @foreach (var item in Model.Cars)
+    {
+        <img src="@item.Link" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Brand: @item.Brand</h5>
+            <h5 class="card-title mt-2">Model: @item.Model</h5>
+            <p class="card-text">Model Id: @item.Id</p>
+            <p class="card-text">Model Average: @item.Average</p>
+            <p class="card-text">Model Year: @item.Year</p>
+            <p class="card-text">Model Price: @item.Price</p>
+            <a href="#">@Html.ActionLink("to Detail", "detail", "car")</a>
+        </div>
+    }
+
+</div>
 
 
 
