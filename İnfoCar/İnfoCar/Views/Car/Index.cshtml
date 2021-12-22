@@ -1,0 +1,13 @@
+﻿@using İnfoCar.Models
+@model List<Cars>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>Cars Id: @item.Id Cars Brands: @item.Brand Cars Models: @item.Model Cars Average: @item.Average Cars Prices: Cars Year: @item.Year @item.Price </li>
+    }
+</ul>
+
